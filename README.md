@@ -17,7 +17,7 @@ The dataset used for this project is from the **Baseball Databank** available on
 - Python, Pandas, Scikit-learn, mip (Mixed-Integer Programming), Matplotlib
 
 ## Model Evaluation
-We evaluated both models using a 67/33 train-test split on `team_features` and `team_runs`.
+I evaluated both models using a 67/33 train-test split on `team_features` and `team_runs`.
 
 - **Random Forest Regression** scored: 0.XXX
 - **Linear Regression** scored: 0.YYY
