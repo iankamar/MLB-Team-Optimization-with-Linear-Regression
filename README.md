@@ -37,3 +37,6 @@ We evaluated both models using a 67/33 train-test split on `team_features` and `
 ```python
 Random Forest Regression scored: 0.XXX
 Linear Regression scored: 0.YYY
+```
+## License
+Copyright © 2024 Ian Kamar. All rights reserved.
