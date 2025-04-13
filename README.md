@@ -22,5 +22,12 @@ I evaluated both models using a 67/33 train-test split on `team_features` and `t
 - **Random Forest Regression** scored: 0.XXX
 - **Linear Regression** scored: 0.YYY
 
-## License
-Copyright © 2024 Ian Kamar. All rights reserved.
+## Data Licenses
+- **Baseball Databank**:  
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+  *Requires:* Attribution + ShareAlike (derivatives must use same license)
+
+- **Lahman Database**:  
+  [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)  
+  *No restrictions* - Use freely without attribution
+
