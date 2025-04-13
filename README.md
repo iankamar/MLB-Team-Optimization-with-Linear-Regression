@@ -11,3 +11,7 @@ This project uses PCA and GridSearchCV-optimized k-Nearest Neighbors for classif
 
 ## Technologies
 Python, Pandas, Scikit-learn, Matplotlib, Seaborn, GridSearchCV
+
+## Dataset
+This project uses historical MLB team data from the [Baseball Databank on Kaggle](https://www.kaggle.com/datasets/danielmontilla/baseball-databank).  
+Please download the dataset manually and place `Teams.csv` in your local `data/` folder before running the notebook.
