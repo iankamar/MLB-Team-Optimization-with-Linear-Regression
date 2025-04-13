@@ -30,4 +30,3 @@ I evaluated both models using a 67/33 train-test split on `team_features` and `t
 - **Lahman Database**:  
   [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)  
   *No restrictions* - Use freely without attribution
-
