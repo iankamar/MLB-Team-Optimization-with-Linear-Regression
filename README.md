@@ -13,5 +13,27 @@ This project uses PCA and GridSearchCV-optimized k-Nearest Neighbors for classif
 Python, Pandas, Scikit-learn, Matplotlib, Seaborn, GridSearchCV
 
 ## Dataset
-This project uses historical MLB team data from the [Baseball Databank on Kaggle](https://www.kaggle.com/datasets/danielmontilla/baseball-databank).  
-Please download the dataset manually and place `Teams.csv` in your local `data/` folder before running the notebook.
+This project uses the UCI Wine dataset for classification.
+
+---
+
+## MLB Team Optimization with Linear Regression
+
+This project builds an optimal MLB team based on predicted player performance using machine learning and optimization techniques.
+
+### Highlights
+- Engineered features from historical MLB player stats (BB, HR, singles, doubles, triples)
+- Trained and evaluated two models: Random Forest Regressor and Linear Regression
+- Linear Regression outperformed and was used for predictions (`R_hat_linear`)
+- Applied knapsack optimization to select players under a fixed salary cap
+- Explored optimal team drafts without and with position constraints
+
+### Technologies
+Python, Pandas, Scikit-learn, mip (Mixed-Integer Programming), Matplotlib
+
+### Model Evaluation
+We evaluated both models using a 67/33 train-test split on `team_features` and `team_runs`.
+
+```python
+Random Forest Regression scored: 0.XXX
+Linear Regression scored: 0.YYY
